@@ -30,7 +30,7 @@ value = () => { console.log('Hey again!'); }; // OK
 
 // Assigning a value of type unknown to variables of other types
 
-let val: unknown;
+let val: any;
 
 const val1: unknown = val; // OK
 const val2: any = val; // OK
