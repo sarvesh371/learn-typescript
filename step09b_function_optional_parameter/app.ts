@@ -8,7 +8,7 @@ function buildName(firstName: string, lastName?: string) : string {
 }
 
 let result1 = buildName("Bob");  //ok
-let result2 = buildName("Bob", "Adams", "Sr.");  //error, too many parameters
+let result2 = buildName("Bob", "Adams");  //error, too many parameters
 var result3 = buildName("Bob", "Adams");  //also ok
 
 
